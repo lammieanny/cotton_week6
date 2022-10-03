@@ -107,14 +107,25 @@ button.enter:active {
 	-webkit-text-stroke: 3px #ffc8dd;
 	text-shadow: -4px 4px #ffc8dd;
 }
-
+.cpink-big-cotton {
+	font-size: 80px;
+	color: #ffc8dd;
+	-webkit-text-stroke: 7px #EA526F; /* outline the text */
+	text-shadow: -15px 15px #EA526F;  /* add depth */
+}
 .cpink-big {
 	font-size: 130px;
 	color: #ffc8dd;
 	-webkit-text-stroke: 7px #EA526F; /* outline the text */
 	text-shadow: -15px 15px #EA526F;  /* add depth */
 }
-
+.cpurp-big-cotton {
+	font-size:80px;
+	color: #FFC8DD;
+	-webkit-text-stroke: 7px #5E548E;
+	text-shadow: -15px 15px #5E548E;
+  padding:.1em;
+}
 .cpurp-big {
 	font-size:130px;
 	color: #FFC8DD;
@@ -122,11 +133,6 @@ button.enter:active {
 	text-shadow: -15px 15px #5E548E;
 }
 
-.d-text {
-  font-family: Helvetica, sans-serif;
-  color: #53bc9c;
-  font-size: 40px;
-}
 
 /* effects */
 .tilt {
@@ -226,11 +232,13 @@ button.enter:active {
 
 .cotton {
   background-image:none;
+  font-size: 100px;
     border: 7px solid #ABDAFC;
+  background-color:#ABDAFC;
   width: 1100px;
   padding-top: 40px;
   padding-bottom: 20px;
   justify-content: none;
   margin-left: 300px;
-
+  margin-bottom:100px;
 }
