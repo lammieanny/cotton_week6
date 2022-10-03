@@ -244,3 +244,21 @@ button.enter:active {
   border-radius: 120px;
   margin-top: 0;
 }
+
+.BunnyR {
+  font-size: 120px;
+	color: #ffc8dd;
+  position: absolute;
+  left
+	-webkit-text-stroke: 3px #f7a1e9; 
+	text-shadow: -4px 4px #f7a1e9; 
+  
+}
+
+.BunnyR:hover {
+	filter: brightness(90%);
+	position:relative;
+	animation-name: roll;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
