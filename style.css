@@ -17,8 +17,8 @@ body {
   margin: auto;
 	display: flex;
   flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: left;
+	justify-content: left;
   background-image: url("https://cdn.glitch.global/0fb34d16-dc96-4804-bbb5-a44a2316c32b/note.jfif?v=1664500525081");
   border: 9px dashed #FFAFCC;
   border-radius: 80px;
@@ -208,10 +208,14 @@ button.enter:active {
   
 }
 
+.hello {
+  
+}
+
 @keyframes wave {
   0% { transform: rotate(0); }
-  25% { transform: rotate(15deg); }
-  50% { transform: rotate(0); }
-  75% { transform: rotate(-15deg); }
-  100% { transform: rotate(0); }
+  25% { transform: rotate(0); }
+  50% { transform: rotate(15deg);}
+ 75% { transform: rotate(0); }
+  100% { transform: rotate(10deg);}
 } 
