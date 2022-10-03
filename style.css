@@ -20,10 +20,10 @@ body {
 	align-items: center;
 	justify-content: center;
   background-image: url("https://cdn.glitch.global/0fb34d16-dc96-4804-bbb5-a44a2316c32b/note.jfif?v=1664500525081");
-  border: 7px solid #FFAFCC;
+  border: 9px dashed #FFAFCC;
   border-radius: 80px;
   box-shadow: 0px 10px #d8cdb2;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -205,6 +205,7 @@ button.enter:active {
 
 .hello:hover {
   animation: wave 1s infinite;
+  
 }
 
 @keyframes wave {
