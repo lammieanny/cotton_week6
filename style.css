@@ -30,6 +30,7 @@ body {
 .title-row {
   display: flex;
   float: top;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-top: -150px;
@@ -107,14 +108,14 @@ button.enter:active {
 }
 
 .cpink-big {
-	font-size: 160px;
+	font-size: 130px;
 	color: #ffc8dd;
 	-webkit-text-stroke: 7px #EA526F; /* outline the text */
 	text-shadow: -15px 15px #EA526F;  /* add depth */
 }
 
 .cpurp-big {
-	font-size: 160px;
+	font-size:130px;
 	color: #FFC8DD;
 	-webkit-text-stroke: 7px #5E548E;
 	text-shadow: -15px 15px #5E548E;
@@ -204,18 +205,18 @@ button.enter:active {
 }
 
 .hello:hover {
-  animation: wave 1s infinite;
+  animation: wave 1.5s infinite;
   
 }
 
 .hello {
-  
+  align-items:left;
 }
 
 @keyframes wave {
-  0% { transform: rotate(0); }
-  25% { transform: rotate(0); }
-  50% { transform: rotate(15deg);}
- 75% { transform: rotate(0); }
-  100% { transform: rotate(10deg);}
+  0% { transform-origin:center; transform: rotate(0); }
+  25% { transform-origin: center ; transform: rotate(15deg); }
+  50% { transform-origin: center;  transform: rotate(0);}
+ 75% { transform-origin: center;  transform: rotate(15deg); }
+  100% { transform-origin: center;  transform: rotate(0);}
 } 
