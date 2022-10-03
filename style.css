@@ -109,7 +109,7 @@ button.enter:active {
 .cpink-big {
 	font-size: 160px;
 	color: #ffc8dd;
-	-webkit-text-stroke: 7px #f7a1e9; /* outline the text */
+	-webkit-text-stroke: 7px #EA526F; /* outline the text */
 	text-shadow: -15px 15px #f7a1e9;  /* add depth */
 }
 
