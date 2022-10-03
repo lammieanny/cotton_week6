@@ -110,27 +110,27 @@ button.enter:active {
 .cpink-big-cotton {
 	font-size: 80px;
 	color: #ABDAFC;
-	-webkit-text-stroke: 7px #acacde; /* outline the text */
+	-webkit-text-stroke: 8px #acacde; /* outline the text */
 	text-shadow: -15px 15px #acacde;  /* add depth */
-  padding:.2em;
+  padding:.25em;
 }
 .cpink-big {
 	font-size: 130px;
 	color: #ffb703;
-	-webkit-text-stroke: 7px #EA526F; /* outline the text */
+	-webkit-text-stroke: 8px #EA526F; /* outline the text */
 	text-shadow: -15px 15px #EA526F;  /* add depth */
 }
 .cpurp-big-cotton {
 	font-size:80px;
 	color: #acacde;
-	-webkit-text-stroke: 7px #ffc8dd;
-	text-shadow: -15px 15px #BE95C4;
+	-webkit-text-stroke: 8px #ffc8dd;
+	text-shadow: -15px 15px #acacde;
   padding:.2em;
 }
 .cpurp-big {
 	font-size:130px;
 	color: #FFC8DD;
-	-webkit-text-stroke: 7px #5E548E;
+	-webkit-text-stroke: 8px #5E548E;
 	text-shadow: -15px 15px #5E548E;
 }
 
@@ -239,8 +239,7 @@ button.enter:active {
   width: 900px;
   padding-top: 60px;
   padding-bottom: 30px;
-  justify-content: none;
-  margin-left: 4800px;
+  margin-left: 480px;
   margin-bottom:100px;
   border-radius: 120px;
   margin-top: 0;
