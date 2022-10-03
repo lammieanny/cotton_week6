@@ -13,7 +13,7 @@ body {
 
 /* layout */
 .title-card {
-	width: 1470px;
+	width: 1440px;
   margin: auto;
 	display: flex;
   flex-direction: column;
