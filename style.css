@@ -55,11 +55,11 @@ body {
 .menu {
 	display: inline-block;
   float: left;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	background-color: #FFAFCC;
 	border: 5px solid #f2e994;
 	border-radius: 20px;
-	padding: 50px;
+	padding: 60px;
 	line-height: 80px;
 }
 
@@ -112,6 +112,7 @@ button.enter:active {
 	color: #ffc8dd;
 	-webkit-text-stroke: 7px #EA526F; /* outline the text */
 	text-shadow: -15px 15px #EA526F;  /* add depth */
+  padding:.2em;
 }
 .cpink-big {
 	font-size: 130px;
@@ -124,7 +125,7 @@ button.enter:active {
 	color: #FFC8DD;
 	-webkit-text-stroke: 7px #5E548E;
 	text-shadow: -15px 15px #5E548E;
-  padding:.1em;
+  padding:.2em;
 }
 .cpurp-big {
 	font-size:130px;
@@ -189,7 +190,7 @@ button.enter:active {
 	transition: all 1s ease-out;
 }
 .squirm:hover {
-	font-size: 150px;
+	font-size: 70px;
 	color: #CDB4DB;
 	-webkit-text-stroke: 7px #ffc8dd;
 	text-shadow: -15px 15px #ffc8dd;
@@ -232,13 +233,15 @@ button.enter:active {
 
 .cotton {
   background-image:none;
-  font-size: 100px;
-    border: 7px solid #ABDAFC;
+  font-size: 80px;
+  border: 7px solid #ACACDE;
   background-color:#ABDAFC;
-  width: 1100px;
+  width: 900px;
   padding-top: 40px;
   padding-bottom: 20px;
   justify-content: none;
-  margin-left: 300px;
+  margin-left: 380px;
   margin-bottom:100px;
+  border-radius: 20px;
+  margin-top: 0;
 }
