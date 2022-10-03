@@ -46,14 +46,14 @@ body {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 1470px;
+  width: 900px;
 }
 /*styling for text box*/
 
 .menu {
 	display: inline-block;
   float: left;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	background-color: #FFAFCC;
 	border: 5px solid #f2e994;
 	border-radius: 20px;
@@ -61,15 +61,9 @@ body {
 	line-height: 80px;
 }
 
-#desc {
-  width: 800px;
-  margin-right: 30px;
-  font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 #showcase {
   float: left;
-  width: 400px;
+  width: 800px;
   background-color: #f4deae;
   border-color: #f4bd45;
 }
