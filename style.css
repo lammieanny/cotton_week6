@@ -55,11 +55,11 @@ body {
 .menu {
 	display: inline-block;
   float: left;
-	margin-bottom: 10px;
+	margin-bottom: 100px;
 	background-color: #FFAFCC;
 	border: 5px solid #f2e994;
 	border-radius: 20px;
-	padding: 60px;
+	padding: 20px;
 	line-height: 80px;
 }
 
@@ -109,22 +109,22 @@ button.enter:active {
 }
 .cpink-big-cotton {
 	font-size: 80px;
-	color: #ffc8dd;
-	-webkit-text-stroke: 7px #EA526F; /* outline the text */
-	text-shadow: -15px 15px #EA526F;  /* add depth */
+	color: #ABDAFC;
+	-webkit-text-stroke: 7px #acacde; /* outline the text */
+	text-shadow: -15px 15px #acacde;  /* add depth */
   padding:.2em;
 }
 .cpink-big {
 	font-size: 130px;
-	color: #ffc8dd;
+	color: #ffb703;
 	-webkit-text-stroke: 7px #EA526F; /* outline the text */
 	text-shadow: -15px 15px #EA526F;  /* add depth */
 }
 .cpurp-big-cotton {
 	font-size:80px;
-	color: #FFC8DD;
-	-webkit-text-stroke: 7px #5E548E;
-	text-shadow: -15px 15px #5E548E;
+	color: #acacde;
+	-webkit-text-stroke: 7px #ffc8dd;
+	text-shadow: -15px 15px #BE95C4;
   padding:.2em;
 }
 .cpurp-big {
@@ -233,15 +233,15 @@ button.enter:active {
 
 .cotton {
   background-image:none;
-  font-size: 80px;
-  border: 7px solid #ACACDE;
-  background-color:#ABDAFC;
+  font-size: 85px;
+  border: 7px dashed #80ed99;
+  background-color:#c7f9cc;
   width: 900px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   justify-content: none;
-  margin-left: 380px;
+  margin-left: 4800px;
   margin-bottom:100px;
-  border-radius: 20px;
+  border-radius: 120px;
   margin-top: 0;
 }
