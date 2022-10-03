@@ -21,7 +21,7 @@ body {
 	justify-content: center;
   background-image: url("https://cdn.glitch.global/0fb34d16-dc96-4804-bbb5-a44a2316c32b/note.jfif?v=1664500525081");
   border: 7px solid #FFAFCC;
-  border-radius: 50px;
+  border-radius: 80px;
   box-shadow: 0px 10px #d8cdb2;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -30,9 +30,9 @@ body {
 .title-row {
   display: flex;
   float: top;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-top: -100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: -150px;
   margin-bottom: -100px;
 }
 
@@ -115,9 +115,9 @@ button.enter:active {
 
 .cpurp-big {
 	font-size: 160px;
-	color: #85CE4D;
-	-webkit-text-stroke: 7px #ffc8dd;
-	text-shadow: -15px 15px #ffc8dd;
+	color: #FFC8DD;
+	-webkit-text-stroke: 7px #5E548E;
+	text-shadow: -15px 15px #5E548E;
 }
 
 .d-text {
