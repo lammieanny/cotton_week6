@@ -249,16 +249,28 @@ button.enter:active {
   font-size: 120px;
 	color: #ffc8dd;
   position: absolute;
-  left
+  left: 440px;
+  top: 585px;
 	-webkit-text-stroke: 3px #f7a1e9; 
 	text-shadow: -4px 4px #f7a1e9; 
   
 }
 
 .BunnyR:hover {
-	filter: brightness(90%);
-	position:relative;
-	animation-name: roll;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
+	 display: flex;
+  float: top;
+  align-items: center;
+  justify-content:right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: -150px;
+  margin-bottom: -100px;
 }
+
+@keyframes BunnyR {
+	0% {   transform: rotate(0deg);
+		   filter: brightness(100%); }
+	100% {  transform: rotate(3.142rad;
+	       filter: brightness(100%); }
+}
+		   
