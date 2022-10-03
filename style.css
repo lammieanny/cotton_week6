@@ -110,12 +110,12 @@ button.enter:active {
 	font-size: 160px;
 	color: #ffc8dd;
 	-webkit-text-stroke: 7px #EA526F; /* outline the text */
-	text-shadow: -15px 15px #f7a1e9;  /* add depth */
+	text-shadow: -15px 15px #EA526F;  /* add depth */
 }
 
 .cpurp-big {
 	font-size: 160px;
-	color: #CDB4DB;
+	color: #85CE4D;
 	-webkit-text-stroke: 7px #ffc8dd;
 	text-shadow: -15px 15px #ffc8dd;
 }
